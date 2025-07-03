@@ -22,6 +22,11 @@ body {
     border-radius: 40px;
     width: 590px;
     grid-area: 4 / 4 / 20 / 24;
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    grid-template-rows: repeat(8, 15px);
+    grid-template-columns: repeat(41, 15px);
 }
 
 #card-image-big {
@@ -33,4 +38,5 @@ body {
     border-radius: 5px;
     width: 60px;
     height: 60px;
+    grid-area: 3 / 2 / 7 / 6;
 }
