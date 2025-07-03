@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #222222;
+    background-color: #333333;
 }
 
 .card-container {
@@ -45,4 +45,19 @@ body {
     width: 40px;
     height: 40px;
     grid-area: 4 / 36 / 7 / 39;
+}
+
+#card-title {
+    color: white;
+    grid-area: 3 / 7 / 5 / 31;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+#card-subtitle {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    grid-area: 5 / 7 / 6 / 15;
+    padding-top: 2px;
 }
