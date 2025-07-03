@@ -21,3 +21,7 @@ body {
     height: 600px;
     border-radius: 40px;
 }
+
+#card-image {
+    border-radius: 40px;
+}
