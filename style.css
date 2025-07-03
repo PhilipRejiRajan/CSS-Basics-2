@@ -9,19 +9,28 @@ body {
 }
 
 .card-container {
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     height: 850px;
+    grid-template-rows: repeat(26, 30px);
+    grid-template-columns: repeat(26, 30px);
 }
 
 #card-background {
     background-color: #282731;
-    width: 600px;
-    height: 600px;
     border-radius: 40px;
+    width: 590px;
+    grid-area: 4 / 4 / 20 / 24;
 }
 
-#card-image {
-    border-radius: 40px;
+#card-image-big {
+    border-radius: 30px;
+    grid-area: 3 / 3 / 23 / 16;
+}
+
+#card-image-medium {
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
 }
